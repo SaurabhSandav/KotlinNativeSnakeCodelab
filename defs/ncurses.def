@@ -1,0 +1,8 @@
+
+
+headers = /usr/include/ncurses.h
+
+compilerOpts.linux = -I/usr/include/
+
+linkerOpts.osx = -lncurses
+linkerOpts.linux = -L/usr/lib/ -lncurses
